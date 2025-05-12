@@ -1,0 +1,10 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+A1,RaspberryPi_Pico_W_SMD_HandSolder,1,RaspberryPi_Pico_W,
+"D1, D2",LED_D3.0mm,2,LED,
+"J3, J4, J5, J6",PinSocket_1x09_P2.54mm_Vertical,4,Conn_01x09_Pin,
+"Q1, Q2, Q3, Q4",TO-92L_HandSolder,4,BC548,
+"R1, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R23, R6, R7, R8, R9",R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,16,560,
+"R2, R20, R21, R22, R3, R4, R5",R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,7,2k7,
+R24,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,10k,
+"SW1, SW2, SW3",SW_PUSH_6mm_H4.3mm,3,SW_MEC_5G,
+TH1,R_LDR_5.2x5.2mm_P3.5mm_Horizontal,1,Thermistor_NTC 10k,
