@@ -1,0 +1,7 @@
+návody atd..
+
+stáhnutí Thonny:
+https://github.com/thonny/thonny/releases/download/v4.1.7/thonny-4.1.7.exe
+
+zprovoznění RPI pico s micropython na Thonny:
+https://youtu.be/oE2WG3lVZNs?si=Ke2nVWbKMFeuqaof&t=101
