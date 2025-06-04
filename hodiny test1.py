@@ -39,7 +39,7 @@ segment_pins = [
 
 
 chars = {
-    #      a  b  c  d  e  f  n  j  g  l  p  h  m  k  dp #pouze pro zobrazení jednotlivých segmentů displeje - testování atd...
+     #     a  b  c  d  e  f  g1 g2 i  l  h  i  k  m  dp  #pouze pro zobrazení jednotlivých segmentů displeje - testování atd...
     "a":  [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     "b":  [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     "c":  [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -58,7 +58,7 @@ chars = {
     }
 
 letters = {
-    #     a  b  c  d  e  f  n  j  g  l  p  h  m  k  dp  #jednotlivé segmenty, na internetu můžeš najít jaké jsou jednotlivé segmenty - hledej "14 digit display segments" 
+    #     a  b  c  d  e  f  g1 g2 i  l  h  i  k  m  dp  #jednotlivé segmenty, na internetu můžeš najít jaké jsou jednotlivé segmenty - hledej "14 digit display segments" 
     " ": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], # zde můžeš pridávat libovolně své znaky pro zobrazování
     "0": [1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], #ne všechny znaky jsou spávně nastavené, je potřeba doplnit
     "1": [0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], #bacha, funkce je case-sensitive -> pozor na mal8 a velká písmena
@@ -76,6 +76,28 @@ letters = {
     "d": [0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0],
     "e": [1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
     "f": [1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+    "g": [1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],	#ne všechny znaky jsou spávně nastavené, je potřeba doplnit
+    "h": [1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+    "i": [1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+    "j": [0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "k": [1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+    "l": [0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "m": [1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+    "n": [0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+    "o": [1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "p": [1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+    "q": [1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+    "r": [1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "s": [1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+    "t": [1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+    "u": [1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+    "v": [0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "w": [1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+    "x": [1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+    "y": [1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+    "z": [1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+    ".": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+    
     }
 
 
