@@ -181,7 +181,7 @@ def set_time_epoch(sec):	#nastaví čas vnitřních RTC hodin na epoch time (ča
     rtc.datetime((dt[0], dt[1], dt[2], 0, dt[3], dt[4], dt[5], 0))
    
    
-
+rtc.datetime((2020, 1, 21, 2, 10, 32, 36, 0)) #inicializace RTC hodin
 while True: #nekonečná smyčka, zde piš program
     
     #příklady, co lze psát do této smyčky.
