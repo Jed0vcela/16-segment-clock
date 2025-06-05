@@ -2,6 +2,7 @@
 from machine import Pin, RTC, Timer
 import time
 
+rtc = RTC()
 button1 = machine.Pin(16, machine.Pin.IN)
 button2 = machine.Pin(20, machine.Pin.IN)
 button3 = machine.Pin(21, machine.Pin.IN)
